@@ -10,3 +10,9 @@
 
 5 - mkdir - Utilizado para criar uma nova pasta através do terminal
 
+* Para criar estrutura de pasta filhas utiliza parametro -p. Exemplo: mkdir -p image/pics
+* Para criar varias pastas filhas nomes comando, segue exemplo: mkdir -p names/{jonh,tom,bob}
+
+
+	
+
