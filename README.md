@@ -18,7 +18,11 @@
 * rmdir -p a/b/c/d/e para remover estrutura de diretório
 * rmdir -pv a/b/c/d/e para remover estrutura de diretório, passado a flag v voçê pode ver como o comando esta deletando a estrutura do arquivo
 
-7 - cat - pode ser utilizado para criar arquivos, quanto para ter o output dos aquivos noterminal
+*Obs: Irá apresentar erro ao tentar deletar uma estrutura de arquivo onde alguma das pastas tenha um arquivo
+
+7 - rm - Utilizado para remover diretorio e os arquivos do diretorio: exemplo: rm -r [nome diretorio]
+
+8 - cat - pode ser utilizado para criar arquivos, quanto para ter o output dos aquivos noterminal
 
 * Para criar um arquivo: cat > [nome arquivo], entao o conteudo a ser digitado no arquivo (sobrescreve o arquivo)
 * Para dar append em um arquivo criado: cat >> [nome arquivo], entao o conteudo a ser digitado no arquivo
