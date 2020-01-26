@@ -13,6 +13,17 @@
 * Para criar estrutura de pasta filhas utiliza parametro -p. Exemplo: mkdir -p image/pics
 * Para criar varias pastas filhas nomes comando, segue exemplo: mkdir -p names/{jonh,tom,bob}
 
+6 - rmdir - Utilizado para remover diretorio ou estrutura de diretorio
+
+* rmdir -p a/b/c/d/e para remover estrutura de diretório
+* rmdir -pv a/b/c/d/e para remover estrutura de diretório, passado a flag v voçê pode ver como o comando esta deletando a estrutura do arquivo
+
+7 - cat - pode ser utilizado para criar arquivos, quanto para ter o output dos aquivos noterminal
+
+* Para criar um arquivo: cat > [nome arquivo], entao o conteudo a ser digitado no arquivo (sobrescreve o arquivo)
+* Para dar append em um arquivo criado: cat >> [nome arquivo], entao o conteudo a ser digitado no arquivo
+* Para apresentar o que foi digitado: cat [nome arquivo], entao a informação será printada no terminal
+
 
 	
 
