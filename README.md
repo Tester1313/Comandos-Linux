@@ -28,6 +28,20 @@
 * Para dar append em um arquivo criado: cat >> [nome arquivo], entao o conteudo a ser digitado no arquivo
 * Para apresentar o que foi digitado: cat [nome arquivo], entao a informação será printada no terminal
 
+9 - cp - utilizado para copiar arquivos
+* cp options source destination
+* Caso a pasta nao exista ira renomear a mesma, caso exista ira copiar uma pasta  dentro da outra
+* Obs: Caso não queira sobrescrever um arquivo de outro diretório que tem o mesmo nome é o passar -i no comando
+
+10 - mv - Move arquivos de diretório, bastante similar ao comando cp
+* Obs: Caso não queira sobrescrever um arquivo de outro diretório que tem o mesmo nome é o passar -i no comando
+
+11 - less - Usado para navegar dentro de arquivos muito grande
+* Para procurar um padrao de cima pra baixo prescione /{pattern}, pressionando n para ir para o proximo resultado
+* Para procurar um padrao de baixo para cima prescione ?{pattern}, pressionando n para ir para o proximo resultado
+* Para navegar pagina por pagina pressione ESPAÇO para ir pra BAIXO, pra cima pressione B
+* Para ir para o final do arquivo pressione SHIFT + G
+* Para ir para o inicio do arquivo pressione 1G ou g minusculo
 
 	
 
